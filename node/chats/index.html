@@ -10,26 +10,35 @@
 <header>
     <div class="head-box"></div>
 </header>
+<div class="shade">
+    <div class="inner"><input id="user_name" type="text"></div>
+</div>
 <div class="main">
     <div class="inner">
         <div class="news">
+            <div id="people-list" class="people-list">
+                <div class="avatar-name">
+                    <div class="avatar"><img src="images/1.jpg"></div>
+                    <span>凯撒大帝</span>
+                </div>
+
+            </div>
             <div id="message-show" class="message-show">
                 <div id="message">
-                    <div class="message-list"> <span>我去 我的我打的安慰</span></div>
-                    <div class="message-list"> <span>我二分法福发送的我打的安慰</span></div>
+                    <div class="message-list"><div class="avatar"><img src="images/1.jpg" alt=""></div> <span><i></i>我去 我的我打的安慰</span></div>
                 </div>
                 <div id="notice">
                 </div>
 
             </div>
-            <textarea id="texts">
-            </textarea>
+            <textarea cols=80 rows=5000  id="texts"></textarea>
             <div class="btn-advertising">
                 <a class="btn">发送</a>
             </div>
         </div>
         <div id="onlinePeople"></div>
-        <div id="user_name">asasa</div>
+
+
     </div>
 </div>
 <script type="text/javascript" src="js/index.js"></script>
