@@ -44,7 +44,7 @@ window.onload=function(){
                 //当前在线人数
                 var onlineCount = o.onlineCount;
                 //新加入用户的信息
-                var user = o.user;
+               // var user = o.user;
                 //更新人数
               /*  var userhtml='';
                 var separ='';
@@ -59,7 +59,7 @@ window.onload=function(){
                 var html='';
                 var div=doc.createElement('div');
                 div.className='system-msg';
-                html+=   '<span>'+ onlineUsers.userName[onlineCount-1];
+                html+=   '<span>'+ onlineUsers;
                 html+=(action == 'login') ? ' 加入了聊天室' : ' 退出聊天室';
                 html+='</span>';
                 div.innerHTML=html;
